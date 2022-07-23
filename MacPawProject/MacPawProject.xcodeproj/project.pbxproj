@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEADF39528883D8300640B4D /* DetailPersonnelPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADF39428883D8300640B4D /* DetailPersonnelPresenter.swift */; };
+		CEADF39728883E3700640B4D /* DetailPersonnelContrcats.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADF39628883E3700640B4D /* DetailPersonnelContrcats.swift */; };
+		CEADF39928883E5400640B4D /* PersonnelDetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADF39828883E5400640B4D /* PersonnelDetailBuilder.swift */; };
+		CEADF39F2889E2DE00640B4D /* LosesAttributeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADF39D2889E2DE00640B4D /* LosesAttributeCell.swift */; };
+		CEADF3A02889E2DE00640B4D /* LosesAttributeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEADF39E2889E2DE00640B4D /* LosesAttributeCell.xib */; };
+		CEADF3A22889E75F00640B4D /* DetailAttributesBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADF3A12889E75F00640B4D /* DetailAttributesBuilder.swift */; };
+		CEADF3A5288AA85D00640B4D /* DetailEquipmenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADF3A4288AA85D00640B4D /* DetailEquipmenViewController.swift */; };
+		CEADF3A7288AA8F500640B4D /* DetailEquipmentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADF3A6288AA8F500640B4D /* DetailEquipmentPresenter.swift */; };
+		CEADF3A9288AA93A00640B4D /* DetailEquipmentContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADF3A8288AA93A00640B4D /* DetailEquipmentContracts.swift */; };
+		CEADF3AB288AA9B500640B4D /* DetailEquipmentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADF3AA288AA9B500640B4D /* DetailEquipmentBuilder.swift */; };
+		CEB4B37D28858BB60019435C /* LossesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4B37C28858BB60019435C /* LossesModel.swift */; };
+		CEB4B380288592CA0019435C /* LossesPersonnelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4B37E288592CA0019435C /* LossesPersonnelCell.swift */; };
+		CEB4B381288592CA0019435C /* LossesPersonnelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB4B37F288592CA0019435C /* LossesPersonnelCell.xib */; };
+		CEB4B3852885A6430019435C /* LosesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4B3842885A6430019435C /* LosesService.swift */; };
+		CEB4B38C288740790019435C /* LossesEqupmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4B38A288740790019435C /* LossesEqupmentCell.swift */; };
+		CEB4B38D288740790019435C /* LossesEqupmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB4B38B288740790019435C /* LossesEqupmentCell.xib */; };
+		CEB4B39028882AA60019435C /* DetailPersonnelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4B38F28882AA60019435C /* DetailPersonnelViewController.swift */; };
+		CED00EF0288ABB7100CC9DAA /* EquipmentAttributesBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED00EEF288ABB7100CC9DAA /* EquipmentAttributesBuilder.swift */; };
+		CEEA890A2884899A001F24F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA89092884899A001F24F5 /* AppDelegate.swift */; };
+		CEEA890E2884899A001F24F5 /* LossesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA890D2884899A001F24F5 /* LossesViewController.swift */; };
+		CEEA89112884899A001F24F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEA890F2884899A001F24F5 /* Main.storyboard */; };
+		CEEA89132884899A001F24F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEA89122884899A001F24F5 /* Assets.xcassets */; };
+		CEEA89162884899A001F24F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEA89142884899A001F24F5 /* LaunchScreen.storyboard */; };
+		CEEA891E28848F92001F24F5 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA891D28848F92001F24F5 /* Builder.swift */; };
+		CEEA8920288491C8001F24F5 /* LossesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA891F288491C8001F24F5 /* LossesPresenter.swift */; };
+		CEEA892228849241001F24F5 /* LossesPersonnelContrcats.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA892128849240001F24F5 /* LossesPersonnelContrcats.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEADF39428883D8300640B4D /* DetailPersonnelPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPersonnelPresenter.swift; sourceTree = "<group>"; };
+		CEADF39628883E3700640B4D /* DetailPersonnelContrcats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPersonnelContrcats.swift; sourceTree = "<group>"; };
+		CEADF39828883E5400640B4D /* PersonnelDetailBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnelDetailBuilder.swift; sourceTree = "<group>"; };
+		CEADF39D2889E2DE00640B4D /* LosesAttributeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LosesAttributeCell.swift; sourceTree = "<group>"; };
+		CEADF39E2889E2DE00640B4D /* LosesAttributeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LosesAttributeCell.xib; sourceTree = "<group>"; };
+		CEADF3A12889E75F00640B4D /* DetailAttributesBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAttributesBuilder.swift; sourceTree = "<group>"; };
+		CEADF3A4288AA85D00640B4D /* DetailEquipmenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEquipmenViewController.swift; sourceTree = "<group>"; };
+		CEADF3A6288AA8F500640B4D /* DetailEquipmentPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEquipmentPresenter.swift; sourceTree = "<group>"; };
+		CEADF3A8288AA93A00640B4D /* DetailEquipmentContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEquipmentContracts.swift; sourceTree = "<group>"; };
+		CEADF3AA288AA9B500640B4D /* DetailEquipmentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEquipmentBuilder.swift; sourceTree = "<group>"; };
+		CEB4B37C28858BB60019435C /* LossesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LossesModel.swift; sourceTree = "<group>"; };
+		CEB4B37E288592CA0019435C /* LossesPersonnelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LossesPersonnelCell.swift; sourceTree = "<group>"; };
+		CEB4B37F288592CA0019435C /* LossesPersonnelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LossesPersonnelCell.xib; sourceTree = "<group>"; };
+		CEB4B3842885A6430019435C /* LosesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LosesService.swift; sourceTree = "<group>"; };
+		CEB4B38A288740790019435C /* LossesEqupmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LossesEqupmentCell.swift; sourceTree = "<group>"; };
+		CEB4B38B288740790019435C /* LossesEqupmentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LossesEqupmentCell.xib; sourceTree = "<group>"; };
+		CEB4B38F28882AA60019435C /* DetailPersonnelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPersonnelViewController.swift; sourceTree = "<group>"; };
+		CED00EEF288ABB7100CC9DAA /* EquipmentAttributesBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentAttributesBuilder.swift; sourceTree = "<group>"; };
+		CEEA89062884899A001F24F5 /* MacPawProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacPawProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEA89092884899A001F24F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEEA890D2884899A001F24F5 /* LossesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LossesViewController.swift; sourceTree = "<group>"; };
+		CEEA89102884899A001F24F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEEA89122884899A001F24F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEEA89152884899A001F24F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEEA89172884899A001F24F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEA891D28848F92001F24F5 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		CEEA891F288491C8001F24F5 /* LossesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LossesPresenter.swift; sourceTree = "<group>"; };
+		CEEA892128849240001F24F5 /* LossesPersonnelContrcats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LossesPersonnelContrcats.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEEA89032884899A001F24F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEADF39328883BD200640B4D /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEADF39A2889E27600640B4D /* LosesDetailCell */,
+				CEB4B389288740360019435C /* LossesEqupmentCell */,
+				CEB4B382288593070019435C /* LossesPersonnelCell */,
+			);
+			name = CustomCell;
+			path = CustomCell/CustomCell;
+			sourceTree = "<group>";
+		};
+		CEADF39A2889E27600640B4D /* LosesDetailCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEADF39D2889E2DE00640B4D /* LosesAttributeCell.swift */,
+				CEADF39E2889E2DE00640B4D /* LosesAttributeCell.xib */,
+			);
+			path = LosesDetailCell;
+			sourceTree = "<group>";
+		};
+		CEADF3A3288AA77100640B4D /* DetailEquipmentScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CEADF3A6288AA8F500640B4D /* DetailEquipmentPresenter.swift */,
+				CEADF3A4288AA85D00640B4D /* DetailEquipmenViewController.swift */,
+				CEADF3A8288AA93A00640B4D /* DetailEquipmentContracts.swift */,
+				CEADF3AA288AA9B500640B4D /* DetailEquipmentBuilder.swift */,
+				CED00EEF288ABB7100CC9DAA /* EquipmentAttributesBuilder.swift */,
+			);
+			path = DetailEquipmentScreen;
+			sourceTree = "<group>";
+		};
+		CEB4B37B28858B140019435C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4B3842885A6430019435C /* LosesService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CEB4B382288593070019435C /* LossesPersonnelCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4B37E288592CA0019435C /* LossesPersonnelCell.swift */,
+				CEB4B37F288592CA0019435C /* LossesPersonnelCell.xib */,
+			);
+			path = LossesPersonnelCell;
+			sourceTree = "<group>";
+		};
+		CEB4B3832885A11A0019435C /* LossesEntity */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4B37C28858BB60019435C /* LossesModel.swift */,
+			);
+			path = LossesEntity;
+			sourceTree = "<group>";
+		};
+		CEB4B389288740360019435C /* LossesEqupmentCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4B38A288740790019435C /* LossesEqupmentCell.swift */,
+				CEB4B38B288740790019435C /* LossesEqupmentCell.xib */,
+			);
+			path = LossesEqupmentCell;
+			sourceTree = "<group>";
+		};
+		CEB4B38E28882A670019435C /* DetailPersonnelScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CEADF39428883D8300640B4D /* DetailPersonnelPresenter.swift */,
+				CEB4B38F28882AA60019435C /* DetailPersonnelViewController.swift */,
+				CEADF39628883E3700640B4D /* DetailPersonnelContrcats.swift */,
+				CEADF39828883E5400640B4D /* PersonnelDetailBuilder.swift */,
+				CEADF3A12889E75F00640B4D /* DetailAttributesBuilder.swift */,
+			);
+			path = DetailPersonnelScreen;
+			sourceTree = "<group>";
+		};
+		CEB4B391288839680019435C /* LosesScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CEEA891F288491C8001F24F5 /* LossesPresenter.swift */,
+				CEEA890D2884899A001F24F5 /* LossesViewController.swift */,
+				CEEA892128849240001F24F5 /* LossesPersonnelContrcats.swift */,
+				CEEA891D28848F92001F24F5 /* Builder.swift */,
+			);
+			path = LosesScreen;
+			sourceTree = "<group>";
+		};
+		CEEA88FD2884899A001F24F5 = {
+			isa = PBXGroup;
+			children = (
+				CEEA89082884899A001F24F5 /* MacPawProject */,
+				CEEA89072884899A001F24F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEEA89072884899A001F24F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEEA89062884899A001F24F5 /* MacPawProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEEA89082884899A001F24F5 /* MacPawProject */ = {
+			isa = PBXGroup;
+			children = (
+				CEEA89092884899A001F24F5 /* AppDelegate.swift */,
+				CEB4B3832885A11A0019435C /* LossesEntity */,
+				CEB4B37B28858B140019435C /* Networking */,
+				CEB4B391288839680019435C /* LosesScreen */,
+				CEB4B38E28882A670019435C /* DetailPersonnelScreen */,
+				CEADF3A3288AA77100640B4D /* DetailEquipmentScreen */,
+				CEADF39328883BD200640B4D /* CustomCell */,
+				CEEA890F2884899A001F24F5 /* Main.storyboard */,
+				CEEA89122884899A001F24F5 /* Assets.xcassets */,
+				CEEA89142884899A001F24F5 /* LaunchScreen.storyboard */,
+				CEEA89172884899A001F24F5 /* Info.plist */,
+			);
+			path = MacPawProject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEEA89052884899A001F24F5 /* MacPawProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEEA891A2884899A001F24F5 /* Build configuration list for PBXNativeTarget "MacPawProject" */;
+			buildPhases = (
+				CEEA89022884899A001F24F5 /* Sources */,
+				CEEA89032884899A001F24F5 /* Frameworks */,
+				CEEA89042884899A001F24F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacPawProject;
+			productName = MacPawProject;
+			productReference = CEEA89062884899A001F24F5 /* MacPawProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEEA88FE2884899A001F24F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CEEA89052884899A001F24F5 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = CEEA89012884899A001F24F5 /* Build configuration list for PBXProject "MacPawProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEEA88FD2884899A001F24F5;
+			productRefGroup = CEEA89072884899A001F24F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEEA89052884899A001F24F5 /* MacPawProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEEA89042884899A001F24F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEA89162884899A001F24F5 /* LaunchScreen.storyboard in Resources */,
+				CEEA89132884899A001F24F5 /* Assets.xcassets in Resources */,
+				CEB4B381288592CA0019435C /* LossesPersonnelCell.xib in Resources */,
+				CEEA89112884899A001F24F5 /* Main.storyboard in Resources */,
+				CEADF3A02889E2DE00640B4D /* LosesAttributeCell.xib in Resources */,
+				CEB4B38D288740790019435C /* LossesEqupmentCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEEA89022884899A001F24F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEADF39928883E5400640B4D /* PersonnelDetailBuilder.swift in Sources */,
+				CEB4B39028882AA60019435C /* DetailPersonnelViewController.swift in Sources */,
+				CEB4B37D28858BB60019435C /* LossesModel.swift in Sources */,
+				CEB4B3852885A6430019435C /* LosesService.swift in Sources */,
+				CEADF39F2889E2DE00640B4D /* LosesAttributeCell.swift in Sources */,
+				CEADF3AB288AA9B500640B4D /* DetailEquipmentBuilder.swift in Sources */,
+				CEADF39728883E3700640B4D /* DetailPersonnelContrcats.swift in Sources */,
+				CEEA892228849241001F24F5 /* LossesPersonnelContrcats.swift in Sources */,
+				CEEA890E2884899A001F24F5 /* LossesViewController.swift in Sources */,
+				CEADF3A22889E75F00640B4D /* DetailAttributesBuilder.swift in Sources */,
+				CEB4B380288592CA0019435C /* LossesPersonnelCell.swift in Sources */,
+				CEADF3A9288AA93A00640B4D /* DetailEquipmentContracts.swift in Sources */,
+				CEEA890A2884899A001F24F5 /* AppDelegate.swift in Sources */,
+				CEADF3A7288AA8F500640B4D /* DetailEquipmentPresenter.swift in Sources */,
+				CED00EF0288ABB7100CC9DAA /* EquipmentAttributesBuilder.swift in Sources */,
+				CEADF3A5288AA85D00640B4D /* DetailEquipmenViewController.swift in Sources */,
+				CEEA891E28848F92001F24F5 /* Builder.swift in Sources */,
+				CEB4B38C288740790019435C /* LossesEqupmentCell.swift in Sources */,
+				CEEA8920288491C8001F24F5 /* LossesPresenter.swift in Sources */,
+				CEADF39528883D8300640B4D /* DetailPersonnelPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEEA890F2884899A001F24F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEEA89102884899A001F24F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEEA89142884899A001F24F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEEA89152884899A001F24F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEEA89182884899A001F24F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEEA89192884899A001F24F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEEA891B2884899A001F24F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QL2VRU27XD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MacPawProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SRT.MacPawProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEEA891C2884899A001F24F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QL2VRU27XD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MacPawProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SRT.MacPawProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEEA89012884899A001F24F5 /* Build configuration list for PBXProject "MacPawProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEA89182884899A001F24F5 /* Debug */,
+				CEEA89192884899A001F24F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEEA891A2884899A001F24F5 /* Build configuration list for PBXNativeTarget "MacPawProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEA891B2884899A001F24F5 /* Debug */,
+				CEEA891C2884899A001F24F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEEA88FE2884899A001F24F5 /* Project object */;
+}

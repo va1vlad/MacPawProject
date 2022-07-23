@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "icons8-plex-a-client-server-media-player-system-and-software-suite-comprising-two-main-components-24.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

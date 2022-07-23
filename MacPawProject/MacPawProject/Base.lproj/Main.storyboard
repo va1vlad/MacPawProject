@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Losses View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="LossesPersonnelViewController" id="BYZ-38-t0r" customClass="LossesViewController" customModule="MacPawProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="QGO-ji-x44">
+                                <rect key="frame" x="8" y="99" width="398" height="763"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="nVx-rs-Bws">
+                                        <rect key="frame" x="0.0" y="44.5" width="398" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nVx-rs-Bws" id="1GW-Tc-bhD">
+                                            <rect key="frame" x="0.0" y="0.0" width="398" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dyM-5E-Y26">
+                                <rect key="frame" x="20" y="44" width="374" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="rr0-Qd-6jM"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Personnel"/>
+                                    <segment title="Equipment"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentedControlAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="kRD-B7-d7K"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                        <color key="tintColor" systemColor="systemGray4Color"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QGO-ji-x44" secondAttribute="trailing" constant="8" id="6Lu-Kf-K7z"/>
+                            <constraint firstItem="QGO-ji-x44" firstAttribute="top" secondItem="dyM-5E-Y26" secondAttribute="bottom" constant="10" id="M9K-Is-c9t"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QGO-ji-x44" secondAttribute="bottom" id="NKH-hh-brb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dyM-5E-Y26" secondAttribute="trailing" constant="20" id="Ukb-u1-xQj"/>
+                            <constraint firstItem="dyM-5E-Y26" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="VPK-ii-ISz"/>
+                            <constraint firstItem="dyM-5E-Y26" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="guJ-tz-fBd"/>
+                            <constraint firstItem="QGO-ji-x44" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="sNj-sf-bbX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="showScreenSegmentedControl" destination="dyM-5E-Y26" id="bTy-ng-Sbc"/>
+                        <outlet property="tableView" destination="QGO-ji-x44" id="NuY-NA-H5z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="97.767857142857139"/>
+        </scene>
+        <!--Detail Personnel View Controller-->
+        <scene sceneID="Qkj-bw-g4K">
+            <objects>
+                <viewController storyboardIdentifier="DetailViewController" id="j2F-5t-1sP" customClass="DetailPersonnelViewController" customModule="MacPawProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c8m-ud-tfk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="4Kq-gY-3xQ">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cLv-eA-fD4"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                        <constraints>
+                            <constraint firstItem="4Kq-gY-3xQ" firstAttribute="top" secondItem="cLv-eA-fD4" secondAttribute="top" id="4Ko-ig-euM"/>
+                            <constraint firstItem="cLv-eA-fD4" firstAttribute="bottom" secondItem="4Kq-gY-3xQ" secondAttribute="bottom" id="HOH-Mj-KNo"/>
+                            <constraint firstItem="4Kq-gY-3xQ" firstAttribute="leading" secondItem="cLv-eA-fD4" secondAttribute="leading" id="dDC-oU-uAd"/>
+                            <constraint firstItem="cLv-eA-fD4" firstAttribute="trailing" secondItem="4Kq-gY-3xQ" secondAttribute="trailing" id="vq1-kN-5SO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="detailTableView" destination="4Kq-gY-3xQ" id="7zl-yT-CVh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yYU-td-dj6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="896" y="-258"/>
+        </scene>
+        <!--Detail Equipmen View Controller-->
+        <scene sceneID="C4Z-Tn-rfI">
+            <objects>
+                <viewController storyboardIdentifier="DetailEquipmenViewController" id="neO-xQ-cs9" customClass="DetailEquipmenViewController" customModule="MacPawProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bHB-nb-de1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="lmg-QJ-Vaz">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Op6-wd-0wB"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                        <constraints>
+                            <constraint firstItem="lmg-QJ-Vaz" firstAttribute="leading" secondItem="Op6-wd-0wB" secondAttribute="leading" id="Ac0-vy-EVN"/>
+                            <constraint firstItem="Op6-wd-0wB" firstAttribute="trailing" secondItem="lmg-QJ-Vaz" secondAttribute="trailing" id="H4M-5O-rEf"/>
+                            <constraint firstItem="lmg-QJ-Vaz" firstAttribute="top" secondItem="Op6-wd-0wB" secondAttribute="top" id="dYP-4z-bZs"/>
+                            <constraint firstItem="Op6-wd-0wB" firstAttribute="bottom" secondItem="lmg-QJ-Vaz" secondAttribute="bottom" id="mNJ-X5-eCq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="equipmentTableView" destination="lmg-QJ-Vaz" id="G4A-2t-Aem"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mrv-f3-GOE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="896" y="451"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
